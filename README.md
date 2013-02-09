@@ -12,11 +12,11 @@ Original Tutorial Series: (http://wp.tutsplus.com/author/tammy/)
 Description
 -----------
 
-I spent quite a bit of time working with this awesome code and tutorial written by Tammy Hart. The idea was to include options for a page in the meta based on the chosen template. Each meta box is created and when the template selected for a page, the corresponding meta box would be displayed.
+I spent quite a bit of time working with this awesome code and tutorial written by Tammy Hart. The idea was to include options for a page template in the meta. When a template is selected for a page, the corresponding meta box would be displayed with JavaScript.
 
-I was working with 5 page templates, each with their own meta box, and it was adding a bunch of clutter to the database. The solution was to save each box as an array. This cut the clutter down a bunch, but it still saved each meta box on every page.
+I was working with 5 page templates, each with their own meta box, and it was adding a bunch of clutter to the database. The solution was to save each box as an array. This cut the clutter down a bunch, but it still saved each meta box for every page in database.
 
-In the end I scrapped this because I couldn't access the meta or "page template options" outside the page id. I still wanted to put it out there for anyone looking to save custom meta boxes as an array or hide them based on page template. -Anthony Wilhelm
+I ended up scrapping this because I couldn't access the meta or "page template options" outside the page id. I still wanted to put it out there for anyone looking to save custom meta boxes as an array or hide them based on page template. -Anthony Wilhelm
 
 
 This project was originally a tutorial for WPTuts+, but as I continued to use the code in my own 
