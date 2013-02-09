@@ -3,19 +3,21 @@ Reusable Custom WordPress Meta Boxes
 
 Version: 0.4
 
-Contributors: [tammyhart](http://github.com/tammyhart)
+Contributors: 
+[tammyhart](http://github.com/tammyhart)
+[awshout](http://github.com/awshout)
 
 Original Tutorial Series: (http://wp.tutsplus.com/author/tammy/)
 
-
-Latest Update
--------------
-
-Image and file upload buttons now use the new 3.5 media uploader!
-
-
 Description
 -----------
+
+I spent quite a bit of time working with this awesome code and tutorial written by Tammy Hart. The idea was to include options for a page in the meta based on the chosen template. Each meta box is created and when the template selected for a page, the corresponding meta box would be displayed.
+
+I was working with 5 page templates, each with their own meta box, and it was adding a bunch of clutter to the database. The solution was to save each box as an array. This cut the clutter down a bunch, but it still saved each meta box on every page.
+
+In the end I scrapped this because I couldn't access the meta or "page template options" outside the page id. I still wanted to put it out there for anyone looking to save custom meta boxes as an array or hide them based on page template. -Anthony Wilhelm
+
 
 This project was originally a tutorial for WPTuts+, but as I continued to use the code in my own 
 projects, I kept improving it and making the resusable part even better. Rather than update the 
