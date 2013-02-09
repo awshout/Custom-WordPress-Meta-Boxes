@@ -22,8 +22,7 @@
 
 	.form-table.meta_box .meta_box_items li {
 		display:inline-block;
-		width:20%;
-		min-width:100px;
+		padding-right:25px;
 	}
 
 /* repeatable */
@@ -40,6 +39,13 @@
 }
 
 .form-table.meta_box .meta_box_repeatable tfoot th {
+	border-bottom:none;
+}
+
+.form-table.meta_box tr {
+	border-bottom:1px solid #e8e8e8;
+}
+.form-table.meta_box tr:last-child {
 	border-bottom:none;
 }
 	

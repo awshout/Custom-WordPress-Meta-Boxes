@@ -50,7 +50,7 @@
  *
  * http://docs.jquery.com/UI/Slider#theming
  */
-.ui-slider { position: relative; text-align: left; background:#ccc; border-radius:3px; width:300px; display:inline-block; margin-right:10px; }
+.ui-slider { position: relative; text-align: left; background:#d6d6d6; border-radius:3px; width:300px; display:inline-block; margin-right:10px; }
 .ui-slider .ui-slider-handle { position: absolute; z-index: 2; width: 1.2em; height: 1.2em; cursor: default; background:#fff; border:1px solid #aaa; border-radius:3px; cursor:pointer; box-shadow:0 1px 1px rgba(0,0,0,.2); }
 .ui-slider .ui-slider-range { position: absolute; z-index: 1; font-size: .7em; display: block; border: 0; background-position: 0 0; }
 
@@ -66,6 +66,8 @@
 .ui-slider-vertical .ui-slider-range-min { bottom: 0; }
 .ui-slider-vertical .ui-slider-range-max { top: 0; }
 
+.meta_box .iris-slider .ui-slider-vertical { width: 100%; height: auto; background:transparent; }
+.meta_box .iris-slider .ui-slider-vertical .ui-slider-handle { margin-bottom:0; }
 /*
  * jQuery UI Datepicker 1.8.14
  *

@@ -1,5 +1,43 @@
 jQuery(function($) {
 	
+	// Adjust visibility of the meta boxes at startup
+	$(window).load(function() {
+		$('.postbox').each(function() {	
+			if($(this).data('metabox-template')) {
+				if($('#page_template').val() == $(this).data('metabox-template')) {
+					$(this).show();
+				} else {
+					$(this).hide();
+				}
+			// hide screen options checkboxes
+			var $metaBox = ($(this).attr('id') + '-hide');
+				$('#adv-settings label').each(function() {
+					if($(this).attr('for') == $metaBox) {
+						$(this).hide();
+					}
+				});				
+			}
+		});
+		
+		// Live adjustment of the meta boxes visibility
+		$('#page_template').on('change', function() {
+			$('.postbox').each(function() {	
+				if($(this).data('metabox-template')) {
+					if($('#page_template').val() == $(this).data('metabox-template')) {
+						$(this).show();
+					} else {
+						$(this).hide();
+					}
+				}
+			});
+		});	 
+	}); // end window load
+	
+	// Initialize Color Picker
+	$(document).ready(function(){
+	    $('.color_picker').wpColorPicker();
+	});
+	
 	// the upload image button, saves the id and outputs a preview of the image
 	var imageFrame;
 	$('.meta_box_upload_image_button').click(function(event) {
