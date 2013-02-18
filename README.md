@@ -16,7 +16,8 @@ I spent quite a bit of time working with this awesome code and tutorial written 
 
 I was working with 5 page templates, each with their own meta box, and it was adding a bunch of clutter to the database. The solution was to save each box as an array. This cut the clutter down a bunch, but it still saved each meta box for every page in database.
 
-I ended up scrapping this because I couldn't access the meta or "page template options" outside the page id. I still wanted to put it out there for anyone looking to save custom meta boxes as an array or hide them based on page template. -Anthony Wilhelm
+I ended up scrapping this because I couldn't access the meta or "page template options" outside the page id. I still wanted to put it out there for anyone looking to save custom meta boxes as an array or hide them based on page template.
+-Anthony Wilhelm
 
 
 This project was originally a tutorial for WPTuts+, but as I continued to use the code in my own 
@@ -35,15 +36,15 @@ the data for the fields you want to use.
 * Textarea
 * WYSIWYG Editor
 * Single checkbox
-* Select and [Chosen](http://harvesthq.github.com/chosen/) select with support for "multiple"
+* Select
 * Radio group
 * Checkbox group
 * Taxonomy Select box and Checkboxes
-* Post select with support for "multiple" and [Chosen](http://harvesthq.github.com/chosen/)
+* Post select with support for "multiple"
 * Post Checkboxes
 * jQuery UI Date input
 * jQuery UI Slider
-* Farbtastic color chooser
+* Color chooser
 * Post Drag and Drop Sort
 * Image upload/select
 * File upload/select
